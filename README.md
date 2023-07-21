@@ -1,8 +1,8 @@
 # AdsxMedia Development Intern Assignment
 Created as part of an assessment for a Web Dev Internship. <a href="https://accordion-to-tabs.netlify.app/">\(View Live Version\)</a>
 
-
-<!-- The Challenge-->
+&nbsp;
+&nbsp;
 ## Challenge:
 Create navigation tabs similar to the image provided using HTML, CSS, and javascript. The tabs should be responsive (add any demo content).
 Also had to follow the following guidelines:<br>
@@ -10,7 +10,8 @@ Also had to follow the following guidelines:<br>
 **2) Responsive** - Your code must work on mobile devices like iPhone/Android.
 
 
-<!--Languages/Frameworks used:-->
+&nbsp;
+&nbsp;
 ## Built With
 - [HTML](https://developer.mozilla.org/en-US/docs/Web/HTML)
 - [CSS](https://developer.mozilla.org/en-US/docs/Web/CSS)
@@ -18,6 +19,7 @@ Also had to follow the following guidelines:<br>
 - [Bootstrap](https://getbootstrap.com/)
 
 
-<!--acknowledgements-->
+&nbsp;
+&nbsp;
 ## Acknowledgements
 - [Netlify](https://www.netlify.com/) for hosting
