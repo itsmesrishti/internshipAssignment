@@ -17,3 +17,7 @@ Also had to follow the following guidelines:
 - [JavaScript](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
 - [Bootstrap](https://getbootstrap.com/)
 
+
+
+## Acknowledgements
+- [Netlify](https://www.netlify.com/) for hosting
