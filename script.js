@@ -16,6 +16,9 @@ function callTab() {
         btn3.classList.add('collapsed');
         btn4.classList.add('collapsed');
         btn1.classList.remove('collapsed');
+        btn1.addEventListener('click', function() {
+            btn1.classList.toggle('collapsed');
+        });
     }));
 
     // if tab2 is clicked on desktop, show only the content associated with btn2, collapse the rest of them
@@ -24,6 +27,9 @@ function callTab() {
         btn3.classList.add('collapsed');
         btn4.classList.add('collapsed');
         btn2.classList.remove('collapsed');
+        btn2.addEventListener('click', function() {
+            btn2.classList.toggle('collapsed');
+        });
     }));
 
     // if tab3 is clicked on desktop, show only the content associated with btn3, collapse the rest of them
@@ -32,6 +38,9 @@ function callTab() {
         btn2.classList.add('collapsed');
         btn4.classList.add('collapsed');
         btn3.classList.remove('collapsed');
+        btn3.addEventListener('click', function() {
+            btn3.classList.toggle('collapsed');
+        });
     }));
 
     // if tab4 is clicked on desktop, show only the content associated with btn4, collapse the rest of them
@@ -40,17 +49,20 @@ function callTab() {
         btn2.classList.add('collapsed');
         btn3.classList.add('collapsed');
         btn4.classList.remove('collapsed');
+        btn4.addEventListener('click', function() {
+            btn4.classList.toggle('collapsed');
+        });
     }));
 };
 
 
-function viewportSize(scrrenWidth) {
-    if (scrrenWidth.matches) {
+function viewportSize(screenWidth) {
+    if (screenWidth.matches) {
         // so that same tab is visible in accordion
         document.querySelectorAll('.nav-link').addEventListener('click', callTab());
     }
 }
 
-var scrrenWidth = window.matchMedia("(min-width: 992px)")
-viewportSize(scrrenWidth) // Call listener function at run time
-scrrenWidth.addListener(viewportSize) // Attach listener function on state changes
+var screenWidth = window.matchMedia("(min-width: 992px)")
+viewportSize(screenWidth) // Call listener function at run time
+screenWidth.addEventListener('change', viewportSize) // Attach event listener function on state changes
