@@ -1,5 +1,5 @@
 # AdsxMedia Development Intern Assignment
-Created as part of an assessment for a Web Dev Internship. <a href="https://accordion-to-tabs.netlify.app/">\(View Live Version\)</a>
+Created as part of an assessment for a Web Dev Internship. <a href="https://accordion-to-tabs.onrender.com/">\(View Live Version\)</a>
 <a href="https://github.com/itsmesrishti/internshipAssignment/tree/main">\(Link to Solution\)</a>
 
 &nbsp;
@@ -18,4 +18,4 @@ Also had to follow the following guidelines:<br>
 
 &nbsp;
 ## Acknowledgements
-- [Netlify](https://www.netlify.com/) for hosting
+- [Render](https://render.com/) for hosting
